@@ -27,6 +27,6 @@ def apache_events(filename, service, term):
     getValues = set(found)
     
     # Print results
-    for eachValue in hosts:
+    for eachValue in getValues:
 
         print(eachValue)
