@@ -1,8 +1,5 @@
 ---
 apache:
-  php: = "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/mediawiki/index.php?title=Main_Page.*"
+  php: = "[GET|POST].*/wordpress/wp-login.php.*,[GET|POST].*/mediawiki/index.php.*"
   cgi: = "[GET|POST].*/cgi-bin/test-cgi.*,[GET|POST].*/cgi-bin/htsearch.*"
 
-  ---
-  mail:
-    relay:
