@@ -16,7 +16,7 @@ $outputName = "C:\Users\derek.bouvia\Desktop\runningServices.csv"
 #Get-service | get-member
 #Get-Service | select-object Status, Name, DisplayName, BinaryPathName |export-csv -Path `
 #$outputName
-$outputName = "C:\Users\derek.bouvia\Desktop\runningServices.csv"
+$outputName = "C:\Users\derek.bouvia\Desktop\runningprocesses.csv"
 
 # Get a list of running services
 #Get-Service | Where-Object { $_.Status -eq "Running" }
